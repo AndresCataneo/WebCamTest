@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>my_cam</name>
+  <version>0.0.1</version>
+  <description>Simple camera publisher and subscriber</description>
+
+  <maintainer email="andres@email.com">andres</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>image_transport</depend>
+
+  <!-- 🔑 ESTO ES OBLIGATORIO -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
